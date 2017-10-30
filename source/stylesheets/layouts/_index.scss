@@ -3,3 +3,10 @@
 // @import "dashboard";
 // @import "profile";
 // @import "map";
+
+.row {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+
+}

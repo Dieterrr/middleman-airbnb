@@ -1,8 +1,39 @@
 ---
 title: Le Wagon - Middleman
 ---
+<!--
 
-<div id="home">
+<p>Hier komt de banner</p>
+<%= partial 'layouts/banner' %>
+
+
+<p>Hier komen de cards</p>
+<%= partial 'layouts/card' %>
+ -->
+
+
+<%= partial 'layouts/banner' %>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-4">
+      <!-- insert <div class="card"> -->
+        <%= partial 'layouts/card' %>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <!-- insert <div class="card"> -->
+        <%= partial 'layouts/card' %>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <!-- insert <div class="card"> -->
+        <%= partial 'layouts/card' %>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- <div id="home">
   <div class="home-content">
     <%= image_tag "logo.png", width: "200" %>
     <p>
@@ -13,3 +44,4 @@ title: Le Wagon - Middleman
     </p>
   </div>
 </div>
+ -->
